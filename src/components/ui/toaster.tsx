@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useToast } from "@/hooks/use-toast";
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from "@/components/ui/toast";
 
@@ -23,10 +22,3 @@ export function Toaster() {
     </ToastProvider>
   );
 }
-=======
-import React from "react";
-
-export const toaster = () => {
-  return <div id="toaster">toaster placeholder</div>;
-};
->>>>>>> 18e7863 (Initial commit before deploying)
